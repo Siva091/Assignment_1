@@ -1,109 +1,114 @@
 # PopX - React App
 
-A simple React-based web app built with **React + Vite + Tailwind CSS**.  
-This project implements a **Welcome Page, Login/Register flow, and Account Settings Page** UI.
+A modern React-based web app built with **React + Vite + Tailwind CSS**.  
+This project implements a **Welcome Page, Login/Register flow, and Account Settings Page UI**.
 
 ---
 
 ## 🚀 Features
 
-- 🎨 Modern UI built with **Tailwind CSS**
-- 🔄 Navigation using **React Router DOM**
-- 👤 User context management (`UserContext`)
-- 📱 Fully responsive design
-- ✨ Account Settings card with profile image and editable details
-
----
-
-## 🧑‍💻 Demo
-
-You can view a live version [here](https://pop-x-login-sign-up.vercel.app/)
-
----
-
-## 📸 Screenshots
-
-### 1. Welcome Page  
-![Welcome Page](https://github.com/NishantSingh2964/PopX-Login-SignUp/blob/main/Screenshots/Screenshot%20(66).png)
-
-### 2. Login Page  
-![Login Page](https://github.com/NishantSingh2964/PopX-Login-SignUp/blob/main/Screenshots/Screenshot%20(68).png)
-
-### 3. Register Page  
-![Register Page](https://github.com/NishantSingh2964/PopX-Login-SignUp/blob/main/Screenshots/Screenshot%20(67).png)
-
-### 4. Account Settings  
-![Account Settings](https://github.com/NishantSingh2964/PopX-Login-SignUp/blob/main/Screenshots/Screenshot%20(69).png)
+- 🎨 Modern UI built with **Tailwind CSS**  
+- 🔄 Navigation using **React Router DOM**  
+- 👤 User context management with **UserContext**  
+- 📱 Fully responsive design  
+- ✨ Account Settings card with profile image and editable details  
 
 ---
 
 ## 📂 Project Structure
 
-popx-app/              
+popx-app/
 │── src/
+│ ├── Context/
+│ ├── pages/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│── screenshots/
+│── index.html
+│── tailwind.config.js
+│── vite.config.js
+│── package.json
+│── README.md
 
-│   ├── Context/            
-│   ├── pages/              
-│   ├── App.jsx            
-│   ├── main.jsx           
-│   └── index.css           
-│
-│── screenshots           
-│── index.html              
-│── tailwind.config.js     
-│── vite.config.js         
-│── package.json            
-│── README.md              
+yaml
+Copy code
 
-## 🛠️ Installation
+---
+
+## 🛠 Installation
+
+Clone the repository:
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/PopX-Login-SignUp.git
+git clone https://github.com/HimaShin/PopX-Login-SignUp.git
+cd PopX-Login-SignUp
+Install dependencies:
 
-# Run development server
+bash
+Copy code
+npm install
+Run development server:
+
+bash
+Copy code
 npm run dev
+Build for production:
 
-# Build for production
+bash
+Copy code
 npm run build
+Preview production build:
 
-# Preview production build
+bash
+Copy code
 npm run preview
+📦 Usage
+Run dev server: npm run dev
 
-```
-## **📦 Usage**
-```bash
-# Run development server
-npm run dev
+Build production: npm run build
 
-# Build for production
-npm run build
+Preview build: npm run preview
 
-# Preview production build
-npm run preview
-```
+🛠 Tech Stack
+React.js
+
+Tailwind CSS
+
+React Router DOM
+
+Vite
+
+📸 Screenshots
+Welcome Page
+
+Login Page
+
+Register Page
+
+Account Settings Page
+
+(Add actual screenshots in src/screenshots folder for clarity.)
+
+🤝 Contributing
+Fork the repository
+
+Create a new branch
+
+Commit your changes
+
+Push to the branch
+
+Open a pull request
+
+
+
+
+License
+
+This project is licensed under the MIT License.
+
 
 ---
 
-## **🛠 Tech Stack**
-- **React.js**
-- **Tailwind CSS**
-- **React Router**
-- **Vite**
-
----
-
-## **🤝 Contributing**
-1. **Fork** the repository
-2. **Create a new branch** 
-3. **Commit** your changes
-4. **Push** to the branch
-5. **Open a pull request**
-
----
-
-## **📜 License**
-This project is licensed under the **MIT License**.
-```
-
-
+If you want, I can also **make it look even more polished with badges for React, Vite, Tailwind, and Node.js**, so your GitHub README looks professional and visually appealing.  
